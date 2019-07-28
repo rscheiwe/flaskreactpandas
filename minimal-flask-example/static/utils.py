@@ -1,5 +1,4 @@
 # Quick mapping function for low-yield modes
-
 def custom_style(row):
     color = 'white'
     if row.values[-1] < 60:
