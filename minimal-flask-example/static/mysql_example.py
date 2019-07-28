@@ -25,11 +25,3 @@ for last_four in cursor:
 
 cursor.close()
 cnx.close()
-
-# 
-# >>> import pandas as pd
-# >>> import pymysql
-# >>> from sqlalchemy import create_engine 
-# >>> engine = create_engine('mysql+pymysql://rscheiwe000:omnicash000@omnicash-sea.cqd9zhenlnpm.us-east-2.rds.amazonaws.com/omnicash_alpha')
-# >>> df = pd.read_sql_query('SELECT * from credit_cards', engine)
-# >>> df.head()
